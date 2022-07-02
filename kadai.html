@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>HTML&CSS 実践 課題</title>
+    <link rel="stylesheet" href="css/kadai.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+
+
+  <body>
+
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#activities">活動内容</a></li>
+          <li><a href="#news">ニュース</a></li>
+          <li><a href="#price">プラン・年会費</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="top">
+        <div class="top_wrap">
+          <h1>ポケモン<br>だいすきクラブ</h1>
+        </div>
+      </section>
+
+      <section id="activities">
+        <h2 class="section_title">活動内容</h2>
+
+        <div class="activities_wrap">
+          <div class="activities_left">
+            <img src="img/event.jpg">
+          </div>
+          <div class="activities_right">
+            <h3>現在の活動</h3>
+            <p>あなたの相棒自慢大会</p>
+            <p>初夏の高尾山で鳥ポケモンウォッチング</p>
+            <p>井の頭公園で虫ポケ採集</p>
+          </div>
+        </div>
+      </section>
+    
+
+      <section id="news">
+        <h2 class="section_title">ニュース</h2>
+        <div class="news_wrap">
+          <p>2022/6/30 Twitter連携イベント"あなたの相棒自慢大会"開催！</p>
+          <p>2022/6/20 8月のイベントについての告知</p>
+          <p>2022/6/1 初夏の高尾山で鳥ポケモンウォッチング開催！</p>
+        </div>
+      </section>
+      
+
+      <section id="price">
+        <h2 class="section_title">プラン・年会費</h2>
+        <div class="price_wrap">
+          <table>
+            <tr>
+              <th>―</th>
+              <th>レギュラー会員プラン</th>
+              <th>シルバー会員プラン</th>
+              <th>ゴールド会員プラン</th>
+            </tr>
+            <tr>
+              <td>入会金</td>
+              <td>3,000円</td>
+              <td>5,000円</td>
+              <td>7,000円</td>
+            </tr>
+            <tr>
+              <td>料金</td>
+              <td>無料</td>
+              <td>4,000円/年</td>
+              <td>6,000円/年</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      
+      
+      <section id="contact">
+        <h2 class="section_title">お問い合わせフォーム</h2>
+        <form class="form" method="post">
+
+          <div>
+            <label for="name">氏名:</label>
+            <input type="text" id="name" name="user_name">
+          </div>
+
+          <div>
+            <label for="mail">メールアドレス:</label>
+            <input type="email" id="mail" name="user_mail">
+          </div>
+
+          <div>
+            <label for="tel">電話番号:</label>
+            <input type="tel" id="tel" name="user_tel">
+          </div>
+
+          <div>
+            <label for="msg">内容:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+
+          <div class="button_submit">
+            <button class="button" type="submit">送信</button>
+          </div>
+
+        </form>
+      </section>
+      
+    </main>
+
+
+    <footer id="footer">
+      <div>
+        <small>©2022 ○○○○○ all rights reserved.</small>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
